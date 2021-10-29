@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,500;0,700;0,900;1,500;1,700;1,900&display=swap');
+
+/* Variable color  */
+:root {
+    --body--bg: hsl(225, 100%, 94%);
+    --card-color: hsl(225, 100%, 98%);
+    --font-color: hsl(223, 47%, 23%);
+    --paragraphy-color: hsl(224, 23%, 55%);
+    --button: hsl(245, 75%, 52%) ;
+}
+
+/* Card Section  */
+body {
+    background-color:var(--body--bg);
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+p {
+    font-size: 16px;
+}
+.summary {
+	background-image: url(images/pattern-background-desktop.svg);
+	background-size: cover;
+	background-position: 95% 31%;
+	background-repeat: repeat-x;
+	padding: 100px 0;
+}
+.card {
+	background-color: white;
+	width: 451px;
+	margin: auto;
+	display: block;
+	border-radius: 33px;
+	height: 660px;
+}
+.card-img img {
+    border-radius: 33px 33px 0 0;
+    overflow: hidden;
+}
+
+.card-blog {
+    text-align: center;
+}
+
+.card-blog h2 {
+    color: var(--font-color);
+    font-size: 1.8rem;
+}
+
+.card-blog P {
+    color: var(--paragraphy-color);
+    font-size: 1.1rem;
+    padding: 0 5.2rem;
+}
+
+.card-blog .box {
+    background-color: hsl(225, 100%, 98%);
+    margin: 8px 67px;
+    border-radius: 23px;
+}
+.box-item {
+	width: calc(100% + 20px);
+	position: relative;
+	padding: 5px 0px;
+}
+
+.card-blog .box-item img {
+
+    position: absolute;
+    top: 21px;
+    left: 20px;
+}
+
+.card-blog .box-item h4 {
+    display: inline-block;
+    font-size: 1.2rem;
+    position: relative;
+    top: -15px;
+    left: -9px;
+}
+
+.card-blog .box-item p {
+    position: absolute;
+    top: 11px;
+    left: -5px;
+    padding-top: 19px;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.card-blog .box-item span {
+    position: relative;
+    top: -3px;
+    left: 38px;
+    color: blue;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.card-blog .box-item span:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+/* Button  */
+
+.button{
+    
+} 
+
+.button .btn {
+	padding: 21px 92px;
+	background-color: var(--button);
+	color: #fff;
+	margin-top: 21px;
+	display: inline-block;
+	text-decoration: none;
+	font-weight: 700;
+	border-radius: 16px;
+	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+}
+.button .btn:hover{
+    background-color: hsl(225, 88%, 67%);
+}
+.last_div{
+    padding-bottom: 20px;
+}
+.last_div p{
+    margin-top: 27px;
+    font-size: 1rem;
+}
+.last_div p:hover{
+    color: black;
+    cursor: pointer;
+}
